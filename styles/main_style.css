@@ -1,0 +1,46 @@
+html {
+  font-size: 24px; /* px means "pixels": the base font size is now 10 pixels high */
+  background-color: #0E6EB7;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0px 0px 0px 10px;
+  color: #00539f;
+  text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  color: #00539f;
+}
+
+header 
+{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+
+}
+
+.nav 
+{
+	padding: 0px 10px 0px 10px;
+	font-family: "Delicious Handrawn", regular;
+}
+
+.nav:visited { text-decoration: none; }
+
+body {
+  margin: 0px;
+  background-color: #ff9500;
+  border: 5px solid black;
+  padding: 10px 20px 10px 20px;
+}
+
+img {
+  display: block;
+  margin: 20px 0px 0px 10px;
+}
