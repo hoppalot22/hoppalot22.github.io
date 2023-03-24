@@ -30,6 +30,11 @@ header
 	font-family: "Delicious Handrawn", regular;
 }
 
+.leon
+{
+	border: 5px solid black;
+}
+
 .nav:visited { text-decoration: none; }
 
 body {
