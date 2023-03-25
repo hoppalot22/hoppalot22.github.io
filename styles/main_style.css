@@ -77,6 +77,23 @@ a
 	color: #023b61;
 }
 
+.profile-grid
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto;
+	background-color: #157abd;
+	padding: 5px 5px 10px 10px;
+	margin: 0px;
+	font-family: "Delicious Handrawn", regular;
+}
+
+.profile-img
+{
+	width: 200px;
+	height: 200px;
+}
+
 .shirts
 {
 	width: 300px;
