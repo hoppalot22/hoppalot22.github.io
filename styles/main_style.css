@@ -1,6 +1,5 @@
 html {
   font-size: 24px; /* px means "pixels": the base font size is now 10 pixels high */
-  background-color: #0E6EB7;
 }
 
 h1 {
@@ -47,7 +46,6 @@ header
 {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto;
-	background-color: #157abd;
 	padding: 5px 5px 10px 10px;
 	margin: 0px;
 	font-family: "Delicious Handrawn", regular;
@@ -62,7 +60,7 @@ body {
 
 img {
   display: block;
-  margin: 20px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 ul
@@ -83,15 +81,25 @@ a
 	grid-template-columns: auto auto;
 	grid-template-rows: auto auto auto auto;
 	background-color: #157abd;
-	padding: 5px 5px 10px 10px;
 	margin: 0px;
 	font-family: "Delicious Handrawn", regular;
+	
+}
+
+.profile-grid-element
+{	
+	display: grid;
+	grid-template-columns: auto auto;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	background-color: #157abd;
 }
 
 .profile-img
 {
 	width: 200px;
 	height: 200px;
+	border-right: 5px solid black;
 }
 
 .shirts
